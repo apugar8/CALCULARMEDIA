@@ -47,7 +47,7 @@ function obtener(){
         }
     }
 
-     suma.textContent = "La suma de los números es " + sumatorio
+    suma.textContent = "La suma de los números es " + sumatorio
     media.textContent = "La media de los números es " + (sumatorio / numeros.length).toFixed(2)
     maximo.textContent = "El valor máximo es " + maximoCalculado
     minimo.textContent = "El valor mínimo es " + minimoCalculado
